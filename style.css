@@ -41,6 +41,7 @@ a, a:visited, a:hover, a:active {
 
 .hero {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 8px;
     padding: 96px;
@@ -69,6 +70,7 @@ button {
     padding-right: 16px;
     padding-top: 4px;
     padding-bottom: 4px;
+    border-style: solid;
 }
 
 .info {
@@ -139,3 +141,42 @@ button {
     font-weight: bold;
     font-size: 24px;
 }
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.action-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+    background-color: #3882f6;
+    padding-top: 36px;
+    padding-bottom: 24px;
+    padding-left: 144px;
+    padding-right: 144px;
+    border-radius: 5px;
+    color: #e5e7eb;
+    flex-shrink: 0;
+}
+
+.action-heading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.action-subtext {
+    margin-top: 0px;
+}
+
+.action-button button {
+    border-color: #e5e7eb;
+}
+
