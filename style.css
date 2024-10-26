@@ -180,3 +180,12 @@ button {
     border-color: #e5e7eb;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
