@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: 'Roboto';
+    font-family: "Roboto";
 }
 
 .header {
@@ -43,9 +43,25 @@ a, a:visited, a:hover, a:active {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 8px;
+    gap: 20px;
     padding: 96px;
     background-color: #1f2937;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-placeholder {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 560px;
+    background-color: #6d747d;
+    color:#f9faf8;
 }
 
 .hero-heading {
@@ -70,7 +86,7 @@ button {
     padding-right: 16px;
     padding-top: 4px;
     padding-bottom: 4px;
-    border-style: solid;
+    border-style: none;
 }
 
 .info {
@@ -178,6 +194,7 @@ button {
 
 .action-button button {
     border-color: #e5e7eb;
+    border-style: solid;
 }
 
 .footer {
